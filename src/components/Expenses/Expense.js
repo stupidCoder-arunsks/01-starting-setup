@@ -1,3 +1,4 @@
+import ExpensesChart from "./ExpenseChart";
 import ExpensesFilter from "./ExpenseFIlter";
 import ExpenseItem from "./ExpenseItem";
 import "./Expenses.css";
@@ -32,6 +33,7 @@ const Expense = (props) => {
 
   return (
     <div className="expenses">
+      <ExpensesChart expenses={filteredArray}></ExpensesChart>
       <ExpensesFilter
         selected={filteredYear}
         onChangeFilter={filterChangeHandler}
