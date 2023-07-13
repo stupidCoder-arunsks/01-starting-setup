@@ -9,7 +9,7 @@ const DUMMY_EXPENSES = [
     title: "car Insurance",
     location: "dubaii",
     amount: 2000,
-    date: new Date(2023, 6, 10),
+    date: new Date(2021, 6, 10),
   },
   {
     id: "e2",
@@ -30,8 +30,9 @@ const DUMMY_EXPENSES = [
     title: "Game caste",
     location: "australia",
     amount: 5000,
-    date: new Date(2023, 4, 14),
+    date: new Date(2022, 4, 14),
   },
+  
 ];
 
 function App() {
